@@ -13,7 +13,7 @@ const examine = (...input) => {
     const output = [];
     for (let i = 0; i < input.length; i++) {
         if (typeof input[i] === "object") {
-            if (isNaN(input[i]) === true) {
+            if (Array.isArray(input[i]) === true) {
                 output.push("array");
             } else {
                 output.push("array")
