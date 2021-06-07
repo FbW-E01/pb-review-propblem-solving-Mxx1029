@@ -17,7 +17,7 @@
 
 // Also, add a comment where you report how long does it take to generate 10 million lines of data.
 
-// time estimation: 2 hours at least (start: 4:05), end 4:15, start: 4:15, end 5:10, start 2:15, end 2:20, start 1:35
+// time estimation: 2 hours at least (start: 4:05), end 4:15, start: 4:15, end 5:10, start 2:15, end 2:20, start 1:35, end 1:55 -> 90 mins (very good estimate business-wise again, but I also decided early on to first complete the class dates task and the dummy data task from longer ago; so in an actual business setting it would maybe quite horrible time management, I guess ... On the other hand you rarely only work on one project at the same time, right?)
 
 // callback function to random integer between a min and a max
 const getRandomBetween = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
