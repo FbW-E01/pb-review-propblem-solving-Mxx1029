@@ -25,9 +25,9 @@ const getRandomBetween = (min, max) => Math.floor(Math.random() * (max - min + 1
 const dataArray = [];
 
 function createDate(idLength, startDate, endDate) {
-    // const iterationAmount = getRandomBetween(4, 500);
+    const iterationAmount = getRandomBetween(4, 500);
 
-    // for (let i = 0; i < iterationAmount; i++) {
+    for (let i = 0; i < iterationAmount; i++) {
     // for (let i = 0; i < 10000000; i++) {// to generate 10 million lines of data
         const obj = {};
 
